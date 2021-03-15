@@ -62,7 +62,6 @@ void delete_vowels(char word[], size_t size){
         flag = 0;
         letter = word[i];
         for(int j = 0; j<10; j++){
-            // printf("Letter => %c", letter);
             if(vowels[j]==letter){
                 flag = 1;
             }
